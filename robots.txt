@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /backup/
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://donajyotidentalclinic.dpdns.org/sitemap.xml
