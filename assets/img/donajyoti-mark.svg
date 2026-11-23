@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 130" fill="none">
+  <defs>
+    <linearGradient id="mintGrad" x1="20" y1="10" x2="100" y2="70" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4ADD82"/>
+      <stop offset="100%" stop-color="#28C76F"/>
+    </linearGradient>
+    <linearGradient id="pinkGrad" x1="15" y1="45" x2="105" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF9FC7"/>
+      <stop offset="55%" stop-color="#FA699E"/>
+      <stop offset="100%" stop-color="#E64B85"/>
+    </linearGradient>
+    <linearGradient id="overlapGrad" x1="30" y1="38" x2="90" y2="82" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3D1A2B"/>
+      <stop offset="100%" stop-color="#6B2D4C"/>
+    </linearGradient>
+    <clipPath id="toothClip">
+      <path d="M24 44C12 52 10 74 18 96C23 111 32 122 41 122C48 122 52 104 60 104C68 104 72 122 79 122C88 122 97 111 102 96C110 74 108 52 96 44C86 38 72 38 60 40C48 38 34 38 24 44Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Tooth Lower Body (Rose & Soft Pink Gradient) -->
+  <path d="M24 44C12 52 10 74 18 96C23 111 32 122 41 122C48 122 52 104 60 104C68 104 72 122 79 122C88 122 97 111 102 96C110 74 108 52 96 44C86 38 72 38 60 40C48 38 34 38 24 44Z" fill="url(#pinkGrad)"/>
+
+  <!-- Upper Heart Crown (Mint Green #4ADD82) -->
+  <path d="M60 22C50 8 27 11 23 29C20 43 35 62 60 76C85 62 100 43 97 29C93 11 70 8 60 22Z" fill="url(#mintGrad)"/>
+
+  <!-- Deep Berry Overlap Intersection -->
+  <path d="M60 22C50 8 27 11 23 29C20 43 35 62 60 76C85 62 100 43 97 29C93 11 70 8 60 22Z" fill="url(#overlapGrad)" clip-path="url(#toothClip)" opacity="0.72"/>
+</svg>
